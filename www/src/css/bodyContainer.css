@@ -1,0 +1,328 @@
+.bodyContainer{
+    background-color: var(--background);
+    padding-top: 60px;
+    border-radius: 22px 22px 0 0 ;
+    width: calc(100% - 22px);
+    max-height: 100%;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    color: var(--text);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 22px;
+}
+.topicPage{
+    padding: 12px 0;
+    color: var(--text);
+}
+.slideImage{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 12px;
+    background-color: var(--card);
+    border-radius: 6px;
+}
+.slideImage > img{
+    border-radius: 6px;
+}
+.publication{
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: first baseline;
+}
+.bodyContent{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-content: first center;
+   align-items: center;
+   gap: 12px;
+
+}
+.card{
+    width: 100%;
+    height: auto;
+    background-color: var(--card);
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 12px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.description{
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+.card > article{
+    margin: 12px auto;
+    font-weight: bold;
+}
+.imageProd > img{
+    border-radius: 6px;
+}
+.profilloPRoduct{
+    position: relative;
+    margin: 12px auto;
+    width: 100%;
+}
+.pdt{
+    width: 100%;
+    height: auto;
+    background-color: var(--card);
+    border-radius: 6px;
+    padding: 12px;
+}
+.pdt > article{
+    margin: 12px auto;
+}
+.myClass{
+    padding: 12px 0;
+}
+.Comprar{
+    margin: 12px auto;
+    padding: 6px;
+    background-color: var(--button);
+    width: 100%;
+    color: var(--branca);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    font-weight: bold;
+}
+.prices{
+    color: orange;
+    font-weight: 500;
+}
+.bold{
+    font-weight: bold;
+}
+.deiailsProd{
+    margin: 12px auto;
+    display: flex;
+    margin-top: 33px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+}
+.deiailsProd > button{
+    flex: 1;
+    border-radius: 0;
+    padding: 6px;
+    background-color: transparent;
+    color: var(--text);
+    border-radius: 0 0 6px 6px;
+}
+.deiailsProd > button:nth-of-type(1){
+    border-left: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+   
+}
+.deiailsProd > button:nth-of-type(3){
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+.deiailsProd > button.loved{
+    color: var(--red);
+}
+.estatisticas{
+    background-color: var(--background);
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.estatisticas:hover{
+    background-color: var(--border);
+}
+.buyButton:hover,
+.buyButton:focus{
+    border-radius: 6px;
+    background-color: var(--button);
+    color: var(--branca);
+}
+.comment:hover,
+.comment:focus{
+    background-color: var(--border);
+    border-radius: 6px;
+}
+.likeProduto:focus,
+.likeProduto:hover{
+    background-color: var(--button-hover);
+    border-radius: 6px;
+}
+/* /////slidesInfo
+ */
+
+ /* /// pesquisar */
+
+.searchBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 6px;
+    padding: 6px 3px;
+}
+.inputSearch{
+    flex: 1 1 100%;
+}
+.inputSearch > input{
+    width: 100%;
+    border: none;
+    background-color: var(--card);
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: var(--text);
+}
+.resultSearch{
+    padding: 12px;
+    max-height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    display: none;
+}
+.resultSearch.active{
+    display: block;
+}
+.resultSearch li{
+    background-color: var(--card);
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin: 6px 0;
+}
+.resultSearch li:hover{
+  background-color: var(--border);
+}
+.buyRound{
+    margin-top: 6px;
+}
+.allProducts{
+    margin-top: 6px;
+}
+.addressContainer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    padding-top: 44px;
+    animation: bounce .3s linear;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .topAddressContainer{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 12px;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        h4{
+            pointer-events: none;
+        }
+
+        button{
+            padding: 8px;
+            background-color: transparent;
+            color: var(--text);
+
+            &:hover{
+                background-color: var(--button);
+                i{
+                    color: var(--branca);
+                }
+            }
+        }
+    }
+
+    .formAddress{
+        .cdd{
+            margin: 3px auto;
+        }
+        .inputBox{
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            width: calc(100% - 12px);
+
+            .inputData{
+                color: var(--text);
+            }
+
+            label{
+                font-size: 9pt;
+            }
+            select{
+                padding: 16px;
+                border-radius: 13px;
+                background-color: var(--background);
+                color: var(--text);
+                border: none;
+                &:focus{
+                    outline: 2px solid var(--outline);
+                }
+                
+                option{
+                    background-color: var(--background);
+                    color: var(--text);
+                    padding: 12px;
+                }
+            }
+          
+            textarea{
+                padding: 12px;
+                border-radius: 13px;
+                background-color: var(--background);
+                border: none;
+                outline: none;
+                color: var(--text);
+
+                &:focus{
+                    outline: 2px solid var(--outline);
+                }
+            }
+
+        }
+    }
+}
+
+@keyframes bounce {
+    from{
+        transform: scale(0.1);
+    } to{
+        transform: scale(1.1);
+    }
+}
+
+.loadingPage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background);
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.loadingPage.active{
+    display: flex;
+}
+.ErrorPopUp{
+    border: 1px solid var(--border);
+    color: var(--text);
+    .confirmButtons{
+        button{
+            border-right: none;
+        }
+    }
+}

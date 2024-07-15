@@ -1,0 +1,32 @@
+{
+  "municipios": [
+    {
+      "nome": "Luanda",
+      "bairros": ["Alvalade", "Bairro Popular", "Cazenga", "Miramar", "Rangel"]
+    },
+    {
+      "nome": "Cacuaco",
+      "bairros": ["Boavista", "Mangueira", "Cazenga", "Alto Cauílo", "Quatro de Fevereiro"]
+    },
+    {
+      "nome": "Viana",
+      "bairros": ["Caxito", "Caxito Viana", "Cazenga", "Gamek", "Lixeira"]
+    },
+    {
+      "nome": "Cazenga",
+      "bairros": ["Cazenga", "Tala Hady", "Kazenga", "Tala Hady II", "Camama"]
+    },
+    {
+      "nome": "Belas",
+      "bairros": ["Praia do Bispo", "Sapu", "Gamek", "Talatona", "Cazenga"]
+    },
+    {
+      "nome": "Quiçama",
+      "bairros": ["Cabiri", "Cacuaco", "Quissama", "Kilamba Kiaxi", "Cazenga"]
+    },
+    {
+      "nome": "Icolo e Bengo",
+      "bairros": ["Icolo e Bengo", "Bengo", "Tala Hady", "Kazenga", "Camama"]
+    }
+  ]
+}

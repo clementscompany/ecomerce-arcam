@@ -1,0 +1,117 @@
+.header{
+    background-color: var(--background);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 6;
+}
+.ContentHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    /* border-bottom: 1px solid var(--border); */
+}
+.leftHeader{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.toggle{
+    padding: 6px;
+    background-color: var(--background);
+    color: var(--text);
+}
+.toggle > i{
+    color: var(--text);
+}
+.toggle:hover > i{
+    color: var(--branca);
+}
+.toggle:hover{
+    color: var(--branca);
+}
+.logo h4{
+    color: var(--text);
+    font-size: 16pt;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo > h4 > b{
+    color: rgb(241, 31, 31);
+}
+.navigator{
+    position: fixed;
+    bottom: 0;
+    padding: 12px 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 6;
+    background-color: var(--background);
+}
+.navigator > button{
+    padding: 11px;
+}
+.navigator > button:focus{
+    background-color: transparent;
+}
+
+.navigator > button.active{
+    background-color: var(--button-hover);
+}
+.navigator > button.active > i{
+    color: var(--branca);
+}
+.rigthHeader{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.cartButton{
+    position: relative;
+}
+.cartButton::before{
+    content:attr(data-Content); 
+    background-color: #df3232;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2px;
+    position: absolute;
+    top: -5px;
+    right:-9px;
+    border-radius: 50%;
+    font-size: 8pt;
+}
+.messageButton{
+    position: relative;
+}
+.messageButton::after{
+    content: attr(data-message);
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2px;
+    position: absolute;
+    top: -5px;
+    right:-9px;
+    border-radius: 50%;
+    font-size: 8pt;
+    background-color: #df3232;
+}
+.headerButton{
+
+    padding: 6px;
+    i{
+        color: var(--colorButton);
+    }
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/leftcotainer.css">
+    <link rel="stylesheet" href="./src/css/checkout.css">
+    <link rel="stylesheet" href="./src/css/bodyContainer.css">
+    <link rel="stylesheet" href="./src/css/login.css">
+    <link rel="stylesheet" href="./src/css/slide.css">
+    <link rel="stylesheet" href="./src/css/chat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <!-- Autoplay is allowed. -->
+    <title>ArcamApp</title>
+  </head>
+  <body>
+    <main id="conteiner">
+      <header class="header" id="header">
+          <div class="ContentHeader">
+            <div class="leftHeader">
+              <button class="toggle headerButton"><i class="bi bi-list"></i></button>
+              <div class="logo ">
+                <h4>Arcam<b>Gold</b>Fish</h4>
+              </div>
+             </div>
+             <div class="rigthHeader" id="searchContainerBtn">
+              <button class="toggle headerButton"><i class="bi bi-search"></i></button>
+              <button class="toggle cartButton headerButton" id="botaoCarrinho" data-Content="15+"><i class="bi bi-cart4"></i></button>    
+            </div>
+          </div>
+      </header>
+     <!-- endOf header -->
+
+      <section id="leftContainer" class="leftContainer">
+        <!-- leftContainer -->
+      </section>
+
+      <section id="bodyContainer" class="bodyContainer">
+        <!-- bodyContainer -->
+      </section>
+
+      <nav class="navigator" id="navigator">
+        <button class="toggle produtosButton"><i class="bi bi-grid-fill"></i></button>
+        <button class="toggle homeBtn"><i class="bi bi-house-fill"></i></button>
+        <button class="toggle messageButton" data-message="0">
+          <i class="bi bi-card-checklist"></i>
+        </button>
+      </nav>
+    </main>
+    <section class="loadingPage" id="loadingPage">
+      <!-- LoadingPage -->
+    </section>
+    <section id="modalContainer" class="modalContainer">
+      <!--modalContainer  --> 
+    </section>
+    
+    <!-- Scripts -->
+    <script type="module" src="main.js"></script>
+    <!-- EndScripts -->
+     <audio id="confirmAudio" src="./src//audio/audioconf1.mp3" style="display: none;"></audio>
+  </body>
+</html>

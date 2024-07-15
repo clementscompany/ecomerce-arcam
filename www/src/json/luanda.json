@@ -1,0 +1,185 @@
+{
+    "provincia": "Luanda",
+    "municipios": [
+      {
+        "nome": "Belas",
+        "municipio": "Belas",
+        "bairros": [
+          "Benfica",
+          "Futungo de Belas",
+          "Morro Bento",
+          "Morro da Luz",
+          "Nova Vida",
+          "Ramiros"
+        ]
+      },
+      {
+        "nome": "Cacuaco",
+        "municipio": "Cacuaco",
+        "bairros": [
+          "Baia",
+          "Bairro dos Navios",
+          "Funda",
+          "Kikolo",
+          "Kicolo",
+          "Sequele"
+        ]
+      },
+      {
+        "nome": "Cazenga",
+        "municipio": "Cazenga",
+        "bairros": [
+          "Bairro da Cuca",
+          "Cala Boca",
+          "Curtume",
+          "Hoji ya Henda",
+          "Levilagi",
+          "Mabor",
+          "Nocal",
+          "Ser. Madó",
+          "Socola",
+          "Sonafe",
+          "Tala Hadi"
+        ]
+      },
+      {
+        "nome": "Icolo e Bengo",
+        "municipio": "Icolo e Bengo",
+        "bairros": [
+          "Bom Jesus",
+          "Calombolola",
+          "Catete"
+        ]
+      },
+      {
+        "nome": "Kilamba Kiaxi",
+        "municipio": "Kilamba Kiaxi",
+        "bairros": [
+          "Calemba",
+          "Calemba II",
+          "Camama",
+          "Cassequel",
+          "Cassequel do Buraco",
+          "Cassequel do Lourenço",
+          "Cidade do Kilamba",
+          "Golf 1",
+          "Golf II",
+          "Palanca",
+          "Popular",
+          "Teixeira"
+        ]
+      },
+      {
+        "nome": "Luanda",
+        "municipio": "Luanda",
+        "bairros": [
+          "Ingombota",
+          "Maianga",
+          "Rangel",
+          "Samba",
+          "Sambizanga"
+        ]
+      },
+      {
+        "nome": "Quiçama",
+        "municipio": "Quiçama",
+        "bairros": [
+          "Cabiri",
+          "Demba Chio",
+          "Mumbondo",
+          "Muxima"
+        ]
+      },
+      {
+        "nome": "Talatona",
+        "municipio": "Talatona",
+        "bairros": [
+          "Camama",
+          "Centralidade do Kilamba",
+          "Centralidade do Sequele",
+          "Talatona"
+        ]
+      },
+      {
+        "nome": "Viana",
+        "municipio": "Viana",
+        "bairros": [
+          "Baia",
+          "Calumbo",
+          "Cazenga",
+          "Estalagem",
+          "Vila Flor",
+          "Zango"
+        ]
+      }
+    ],
+    "bairros": [
+      "Alvalade",
+      "Baia",
+      "Bairro Azul",
+      "Bairro da Cuca",
+      "Bairro dos Navios",
+      "Bairro Operário",
+      "Benfica",
+      "Bom Jesus",
+      "Cabiri",
+      "Cala Boca",
+      "Calemba",
+      "Calemba II",
+      "Calombolola",
+      "Camama",
+      "Cassenda",
+      "Cassequel",
+      "Cassequel do Buraco",
+      "Cassequel do Lourenço",
+      "Cazenga",
+      "Centralidade do Kilamba",
+      "Centralidade do Sequele",
+      "Cidade do Kilamba",
+      "Coqueiros",
+      "Corimba",
+      "Cruzeiro",
+      "Curtume",
+      "Demba Chio",
+      "Estalagem",
+      "Funda",
+      "Futungo de Belas",
+      "Golf 1",
+      "Golf II",
+      "Hoji ya Henda",
+      "Ingombota",
+      "Kikolo",
+      "Kicolo",
+      "Kinaxixi",
+      "Levilagi",
+      "Mabor",
+      "Maianga",
+      "Miramar",
+      "Morro Bento",
+      "Morro da Luz",
+      "Mumbondo",
+      "Mutamba",
+      "Muxima",
+      "Nocal",
+      "Nova Vida",
+      "Palanca",
+      "Popular",
+      "Prenda",
+      "Ramiros",
+      "Rangel",
+      "Rocha Pinto",
+      "Samba",
+      "Sambizanga",
+      "São Paulo",
+      "Sequele",
+      "Ser. Madó",
+      "Socola",
+      "Sonafe",
+      "Talatona",
+      "Tala Hadi",
+      "Teixeira",
+      "Vila Flor",
+      "Zango"
+    ]
+  }
+  

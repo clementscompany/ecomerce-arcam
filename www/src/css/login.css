@@ -1,0 +1,367 @@
+.modalContainer{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background);
+    top: 0;
+    left: 0;
+    z-index: 12;
+    display: none;
+    color: var(--text);
+}
+.modalContainer.active{
+    display: block;
+}
+.modalContainer.logout{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--darckground);
+   backdrop-filter: blur(12px);
+}
+.modalContainer.blurConteiner{
+   background-color: #050505a8;
+   backdrop-filter: blur(12px); 
+   display: block;
+}
+.titleFormData{
+    text-align: center;
+    padding: 12px 0;
+    color: var(--text);
+}
+.contentLogin{
+  width: 100%;
+  height: calc(100% - 80px);
+  border-radius: 22px 22px 0 0;
+  background-color: var(--card);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: animeCard .3s linear;
+  color: var(--text);
+}
+@keyframes animeCard{
+    from{
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.loginText{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.loginWord{
+    padding: 20px;
+    padding-top: 44px;
+    text-align: center;
+    h4{
+        font-size: 22pt;
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+.formDadaLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+.inputBox{
+    margin: 12px auto;
+    width: calc(100% - 40px);
+    position: relative;
+}
+.inputBox > input{
+    width: 100%;
+    padding: 16px 12px;
+    background-color: var(--background);
+    border: 1px solid transparent;
+    border-radius: 13px;
+    color: var(--text);
+    font-size: 13pt;
+    transition: outline .2s ease;
+    &:focus{
+        outline: 2px solid var(--outline);
+    }
+}
+.inputBox > input.error{
+    border: 1px solid #e95555ad;
+}
+.inputBox > input.sucess{
+    border: 1px solid #20aa20c2;
+}
+.inputBox > i{
+    position: absolute;
+    height: 100%;
+    right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+.inputBox > i.active{
+    color: var(--button);
+}
+.inputBox > button{
+    width: 100%;
+    padding: 18px;
+    border-radius: 16px;
+    font-weight: bold;
+}
+.loginBtn{
+    color: var(--branca);
+}
+.cadastroBtn{
+    background-color: var(--background);
+    border: 1px solid var(--button);
+    color: var(--button);
+}
+.cadastroBtn:hover{
+    color: var(--branca);
+}
+.TextError{
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    width: calc(100% - 60px);
+    border-radius: 16px;
+    padding: 6px;
+    color: var(--branca);
+}
+.TextError.error{
+    display: block;
+    color: #e95555ad;
+}
+.TextError.sucess{
+    color: #20aa20c2;
+    display: block;
+}
+.nextCadastrateBtn{
+    display: none;
+}
+.nextCadastrateBtn.active{
+    display: block;
+}
+/* ////////////////contentSelection */
+.contentSelection{
+    background-color: var(--card);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: calc(100% - 80px);
+    max-height: calc(100% - 80px);
+    overflow-y: auto;
+    border-radius: 22px;
+    padding: 12px;
+    padding-bottom: 200px;
+    animation: cammingContainer .3s linear;
+}
+@keyframes cammingContainer {
+    from{
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.topNavigation{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    gap: 22px;
+}
+.addCardCard{
+    display: flex;
+    gap: 12px;
+    background-color: var(--background);
+    margin-top: 12px;
+
+    .rightCard{
+        h3{
+            color: #ff9100;
+        }
+    }
+
+}
+.leftCard{
+    width: 75px;
+    height: 75px;
+}
+.leftCard > image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.leftCard > .image > img{
+    border-radius: 6px;
+}
+.bottomCard{
+    padding: 12px;
+    background-color: var(--background);
+    border-radius: 22px 22px 0 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.thisButton{
+    background-color: transparent;
+    padding: 6px;
+    border: 2px solid var(--button);
+}
+.leftBottom{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.leftBottom > input{
+    border: 2px solid var(--button);
+    padding: 6px;
+    border-radius: 6px;
+    width: 55px;
+    text-align: center;
+    background-color: transparent;
+    color: var(--text);
+    font-weight: bold;  
+}
+.leftBottom > button{
+    color: var(--text);
+}
+.rightBottom{
+    display: flex;
+}
+.rightBottom > button{
+    flex: 1 1 ;
+    background-color: var(--button);
+    color: var(--branca);
+    border: none;
+}
+.rightBottom > button:hover{
+   background-color: var(--button-hover);
+}
+.gridCard{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.calc{
+    margin: 6px 0;
+}
+.calc > p{
+    line-height: 22px;
+}
+.calc > p > b{
+    color: var(--text);
+}
+.cd{
+    margin: 12px auto;
+    background-color: var(--background);
+}
+/* /////////////////////topCarrinhoDeCompras */
+.carrinhoDeCompras{
+    width: 100%;
+    height: calc(100% - 120px);
+    max-height: calc(100% - 120px);
+    padding: 12px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    overflow-y: auto;
+}
+.topCarrinho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 33px;
+    padding: 12px;
+    background-color: var(--background);
+}
+.buttonsOptionsCard{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.buttonsOptionsCard > *{
+    flex: 1 1;
+    width: 100%;
+}
+.choiseButtons{
+    /* border: 2px solid var(--button); */
+    border-radius: 6px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+}
+.choiseButtons > button{
+    padding: 8px 0;
+    flex: 1;
+    border-radius: 6px;
+    background-color: transparent;
+    color: gray;
+}
+.choiseButtons > button.active{
+    background-color: var(--button);
+    color: var(--branca);
+    animation: bounce .2s linear;
+}
+.listOrders{
+    margin: 12px auto;
+    color: var(--text);
+    font-size: 11pt;
+}
+.listOrders > li{
+    margin: 12px auto;
+    border-bottom: 1px solid var(--border);
+    padding: 6px 0;
+}
+
+.finalizeButton{
+    width: 100%;
+    padding: 12px;
+    color: var(--branca);
+    animation: bounce .2s linear;
+}
+.bottomCartContainer{
+    background-color: var(--card);
+    border-radius: 22px 22px 0 0 ;
+    padding: 12px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.prices > b{
+    color: var(--text);
+}
+.bottomCartContainer > ul{
+    background-color: var(--border);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.removeButtonList{
+    button{
+        width: 100%;
+        padding: 16px;
+        background-color: #f34e4e;
+        &:focus{
+            opacity: 0.7;
+        }
+        i{
+            color: var(--branca);
+        }
+    }
+}

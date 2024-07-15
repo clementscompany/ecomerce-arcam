@@ -1,0 +1,71 @@
+{
+    "locais": {
+      "Luanda": [
+        {
+          "telefone": "959104028",
+          "bairro": "Viana",
+          "local": "Depois do cemitério entre a fábrica de metal ao lado da loja Só Correias"
+        },
+        {
+          "telefone": "959104026",
+          "bairro": "Benfica",
+          "local": "Via express, Depois da pedonal da Sicomex..."
+        },
+        {
+          "telefone": "959104027",
+          "bairro": "Palanca",
+          "local": "Antes da pedonal da Shoprite para quem vem de viana"
+        },
+        {
+          "telefone": "959104030",
+          "bairro": "Cacuaco",
+          "local": "Vila de cacuaco, Depois do Tanque de água, Antes da bomba da Puma Ngol"
+        },
+        {
+          "telefone": "959104019",
+          "bairro": "Vila Alice",
+          "local": "Sentido Zé Pirão Depois Sa Loja Infornet..."
+        },
+        {
+            "telefone": "959104024",
+          "bairro": "Maianga (Catambor)",
+          "local": "Sentido Maianga aeroporto, Antes do Veadulto, Depois do Codem, Paca 30"
+        },
+        {
+          "telefone": "959104031",
+          "bairro": "Camama",
+          "local": "Camama 1 Golf 2 Depois Do retorno mo mini-mercado Deskontão, ao lado do colégio Jos Chris"
+        },
+        {
+          "telefone": "959104030",
+          "bairro": "Zango 3",
+          "local": "Via direita Para Kalumbo última paragem do zango 4"
+        }
+      ],
+      "Benguela": [
+        {
+          "telefone": "959104032",
+          "bairro": "Goa, Golfinho",
+          "local": "Rua principal... ao Lado Do colegio vasconcelos!"
+        }
+      ],
+      "Huila": [
+        {
+          "telefone": "959104019",
+          "bairro": "Mapunda",
+          "local": "......"
+        },
+        {
+          "telefone": "959104019",
+          "bairro": "Chibia",
+          "local": "......"
+        },
+        {
+          "telefone": "959104019",
+          "bairro": "Milenium",
+          "local": "......"
+        }
+      ]
+    }
+  }
+  

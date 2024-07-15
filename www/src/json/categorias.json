@@ -1,0 +1,56 @@
+{
+  "categorias": [
+    {
+      "nome": "Alimentos",
+      "produtos": [
+        "Ração seca",
+        "Ração úmida",
+        "Petiscos",
+        "Suplementos nutricionais"
+      ]
+    },
+    {
+      "nome": "Higiene e Beleza",
+      "produtos": [
+        "Shampoo",
+        "Condicionador",
+        "Escovas e pentes",
+        "Perfumes",
+        "Cortadores de unha",
+        "Cuidados dentários"
+      ]
+    },
+    {
+      "nome": "Acessórios",
+      "produtos": [
+        "Coleiras e guias",
+        "Roupas",
+        "Camas",
+        "Brinquedos",
+        "Recipientes de comida e água",
+        "Transportadoras",
+        "Arranhadores"
+      ]
+    },
+    {
+      "nome": "Saúde e Bem-estar",
+      "produtos": [
+        "Antipulgas e carrapatos",
+        "Vermífugos",
+        "Suplementos vitamínicos",
+        "Medicamentos",
+        "Primeiros socorros"
+      ]
+    },
+    {
+      "nome": "Serviços",
+      "servicos": [
+        "Banho e tosa",
+        "Consulta veterinária",
+        "Hospedagem",
+        "Creche para pets",
+        "Treinamento e adestramento"
+      ]
+    }
+  ]
+}
